@@ -1,0 +1,12 @@
+let test = game.createSprite(2, 2)
+input.onButtonPressed(Button.B, function () {
+    test.setX(Math.randomRange(0, 4))
+    test.setY(Math.randomRange(0, 4))
+})
+input.onButtonPressed(Button.A, function () {
+    test.turn(Direction.Left, 45)
+})
+basic.forever(function () {
+    test.move(1)
+    test.ifOnEdgeBounce()
+})
