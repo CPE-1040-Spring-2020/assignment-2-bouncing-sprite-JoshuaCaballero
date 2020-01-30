@@ -69,3 +69,4 @@ This assignment asks you to write a simple program using the "sprites" provided 
 ### Submission demo
 
 My [demo video](https://imgur.com/your/demo/video/url/here) shows my micro:bit executing my program. _(Edit the URL in the parentheses of the hyperlink.)_
+[my demo](https://imgur.com/MbvOGi3)
